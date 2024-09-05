@@ -19,6 +19,7 @@
                             <span :class="{ 'text-decoration-line-through': item.done }">
                                 {{ item.text }}
                             </span>
+                            <button class="btn btn-danger btn-sm" @click="removeTodo(index)">x</button>
                         </li>
                     </ul>
                 </div>
